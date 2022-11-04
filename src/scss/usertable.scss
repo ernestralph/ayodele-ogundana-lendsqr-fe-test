@@ -1,0 +1,72 @@
+.userTable{
+ background: #FFFFFF;
+ border: 1px solid rgba(33, 63, 125, 0.06);
+ box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+ border-radius: 4px;
+
+
+  &__table thead{
+   border: none;
+   border-width: 0;
+   border-style: none;
+   border-color: transparent;
+   font-size: 12px;
+   font-family: 'Work Sans';
+    font-style: normal;
+   color: $primary-color;
+  }
+
+   &__table tbody{
+    font-size: 14px;
+    font-family: 'Work Sans';
+     font-style: normal;
+     color: $primary-color;
+   }
+
+    tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    tr {
+     padding: 20px 13px !important;
+   }
+
+   tbody>tr:last-child{
+    border-bottom: transparent;
+
+   }
+
+
+  .bg__active{
+   color: #39CD62;
+   background: rgba(57, 205, 98, .1);
+   border-radius: 5px;
+   padding: 5px !important;
+   text-align: center;
+  }
+
+  .bg__inactive{
+   color: $tetiary-color;
+   background: rgba(84, 95, 125, .1);
+   border-radius: 5px;
+   padding: 5px !important;
+   text-align: center;
+  }
+
+  .bg__pending{
+   columns: $app-warning;
+   background: rgba(233, 178, 0, .1);
+   border-radius: 5px;
+   padding: 5px !important;
+   text-align: center;
+  }
+
+  .bg__blacklisted{
+   color: #FF3366;
+   background: rgba(255, 51, 102, .1);
+   border-radius: 5px;
+   padding: 5px !important;
+   text-align: center;
+  }
+}

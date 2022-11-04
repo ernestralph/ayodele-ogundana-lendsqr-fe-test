@@ -1,0 +1,40 @@
+.navbar {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+.navbar__inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0 60px;
+}
+.navbar__items:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+.navbar__search {
+  display: flex;
+  align-items: center;
+}
+.navbar__searchinput {
+  background: #FFFFFF;
+  opacity: 0.2;
+  border: 1px solid #213F7D;
+  border-radius: 8px;
+  width: 400px;
+  height: 40px;
+}
+.navbar__searchbtn {
+  background: #39CDCC;
+  width: 56;
+  height: 40px;
+  border-radius: [object Object] px;
+}/*# sourceMappingURL=navigationbars.css.map */

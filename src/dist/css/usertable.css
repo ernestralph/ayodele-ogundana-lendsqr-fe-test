@@ -1,0 +1,28 @@
+.userTable {
+  background: #FFFFFF;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+.userTable__table thead {
+  border: none;
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
+  font-size: 12px;
+  font-family: "Work Sans";
+  font-style: normal;
+}
+.userTable__table tbody {
+  font-size: 14px;
+  font-family: "Work Sans";
+  font-style: normal;
+}
+.userTable tbody,
+.userTable td,
+.userTable tfoot,
+.userTable th,
+.userTable thead,
+.userTable tr {
+  padding: 20px 13px !important;
+}/*# sourceMappingURL=usertable.css.map */
