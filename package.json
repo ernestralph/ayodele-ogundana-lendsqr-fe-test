@@ -27,7 +27,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -52,6 +52,11 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.186"
+  },
+
+  "engines": {
+    "node": "v16.15.1",
+    "npm":"8.19.2"
   }
 
 }
