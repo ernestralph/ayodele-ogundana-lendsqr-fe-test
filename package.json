@@ -52,5 +52,11 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.186"
+  },
+
+  "engines": {
+    "node": "v16.15.1",
+    "npm":"8.19.2"
   }
+
 }
